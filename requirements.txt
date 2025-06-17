@@ -1,0 +1,11 @@
+PyQt6>=6.4.0  # GUI framework
+pandas>=1.5.0  # Data analysis
+numpy>=1.21.0  # Numerical computations
+requests>=2.28.0  # HTTP requests
+python-dotenv>=0.19.0  # Environment variables
+cryptography>=37.0.0  # Security features
+openai>=0.27.0  # AI integration
+pymongo>=4.0.0  # Database
+pytest>=7.0.0  # Testing
+black>=22.0.0  # Code formatting
+flake8>=4.0.0  # Linting 
