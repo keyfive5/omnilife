@@ -2,6 +2,7 @@ import sys
 from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QTabWidget, QHBoxLayout, QLabel
 from PyQt6.QtCore import Qt
 from modules.energy.energy_module import EnergyModule
+from modules.ai.ai_assistant_module import AIAssistantModule
 from ui.theme import APP_STYLESHEET
 
 class HeaderBar(QWidget):
@@ -50,9 +51,9 @@ class OmniLifeApp(QMainWindow):
         self.energy_module = EnergyModule()
         self.tabs.addTab(self.energy_module.get_widget(), "Energy")
         
-        # AI Assistant Module (placeholder)
-        ai_tab = QWidget()
-        self.tabs.addTab(ai_tab, "AI Assistant")
+        # AI Assistant Module
+        self.ai_module = AIAssistantModule()
+        self.tabs.addTab(self.ai_module.get_widget(), "AI Assistant")
         
         # Security Module (placeholder)
         security_tab = QWidget()
