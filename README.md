@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="docs/omnilife-banner.png" alt="OmniLife Logo" width="400"/>
-</p>
+
 
 <h1 align="center">OmniLife</h1>
 
